@@ -42,6 +42,7 @@ colour names for use with both the color and PSTricks packages.
 %files
 %{_texmfdistdir}/tex/latex/svgcolor/svgcolor.sty
 %doc %{_texmfdistdir}/doc/latex/svgcolor/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +53,5 @@ colour names for use with both the color and PSTricks packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
