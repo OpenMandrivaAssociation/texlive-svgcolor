@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-svgcolor
 Version:	1.0
-Release:	2
+Release:	3
 Summary:	Define SVG named colours
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/svgcolor
